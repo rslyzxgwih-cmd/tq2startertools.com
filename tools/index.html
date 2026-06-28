@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools | Titan Quest 2 Starter Tools</title>
+  <meta name="description" content="Static Titan Quest 2 tools hub with no API, database, search, planner, or backend logic.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-slate-950">Skip to content</a>
+
+  <header class="border-b border-white/10 bg-slate-950">
+    <nav class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-5 md:flex-row md:items-center md:justify-between" aria-label="Primary navigation">
+      <a href="/" class="text-base font-semibold tracking-wide text-white">Titan Quest 2 Starter Tools</a>
+      <ul class="flex flex-wrap gap-3 text-sm text-slate-300" aria-label="Primary decision areas">
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/choose-build/">Choose Build</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/builds/">Builds</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/classes/">Classes</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/skills/">Skills</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/guides/beginner/">Guides</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/tools/">Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="mx-auto max-w-6xl px-5 py-5 text-sm text-slate-400" aria-label="Breadcrumb">Home > Tools</div>
+    <section class="mx-auto max-w-6xl px-5 py-12" aria-labelledby="tools-title">
+      <h1 id="tools-title" class="text-4xl font-bold leading-tight text-white md:text-5xl">Tools are decision surfaces, not calculators yet.</h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-300">The Tools Hub reserves the future advisor system while keeping the Static MVP free of planner logic, search implementation, APIs, databases, and backend behavior.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/class-picker/">Open Static Class Picker</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/choose-build/">Choose Build Instead</a></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="tools-entry">
+      <h2 id="tools-entry" class="text-2xl font-semibold text-white">Available in Static MVP</h2>
+      <div class="mt-5 grid gap-4 md:grid-cols-3"><article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">Class Picker</h3><p class="mt-2 text-slate-300">Static recommendation format for choosing class direction.</p><a class="mt-4 inline-block text-cyan-300" href="/class-picker/">Open class picker</a></article><article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">Build Advisor</h3><p class="mt-2 text-slate-300">Reserved for a future rule-based advisor after review.</p></article><article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">Build Planner</h3><p class="mt-2 text-slate-300">Reserved for Phase 3. No planner logic is implemented.</p></article></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="tools-recommendation">
+      <h2 id="tools-recommendation" class="text-2xl font-semibold text-white">Recommended tool path</h2>
+      <article class="mt-5 rounded border border-white/10 bg-white/5 p-6"><h3 class="text-xl font-semibold text-white">Use Class Picker first.</h3><p class="mt-3 text-slate-300">Why: it helps users choose a class direction without needing official build planner data.</p><p class="mt-3 text-slate-300">Best for: Beginner and undecided players. Endgame optimization tools remain future work.</p></article>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="tools-confidence">
+      <h2 id="tools-confidence" class="text-2xl font-semibold text-white">Confidence</h2>
+      <p class="mt-3 rounded border border-amber-300/30 bg-amber-300/10 p-5 text-amber-100">Static MVP boundary: no React state, no API, no database, no search implementation, no planner logic, and no backend.</p>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="tools-related">
+      <h2 id="tools-related" class="text-2xl font-semibold text-white">Related decision</h2>
+      <p class="mt-3 text-slate-300">If the user does not need a tool yet, route them back to the build or guide decision.</p>
+      <div class="mt-5 flex flex-col gap-3 sm:flex-row"><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/beginner/">Beginner builds</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/guides/beginner/">Beginner guide</a></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="tools-next">
+      <h2 id="tools-next" class="text-2xl font-semibold text-white">Next decision</h2>
+      <p class="mt-3 text-slate-300">Use the static class picker or return to build selection.</p>
+      <div class="mt-5 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/class-picker/">Use Class Picker</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/">Compare Builds</a></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950">
+    <div class="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-4">
+      <section aria-labelledby="footer-core-Tools">
+        <h2 id="footer-core-Tools" class="text-sm font-semibold text-white">Core Decisions</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/choose-build/">Choose a build</a></li>
+          <li><a href="/builds/beginner/">Beginner builds</a></li>
+          <li><a href="/class-picker/">Class picker</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-guides-Tools">
+        <h2 id="footer-guides-Tools" class="text-sm font-semibold text-white">Guides</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/guides/beginner/">Beginner guide</a></li>
+          <li><a href="/classes/">Class direction</a></li>
+          <li><a href="/skills/">Skill choices</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-tools-Tools">
+        <h2 id="footer-tools-Tools" class="text-sm font-semibold text-white">Tools</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/tools/">Tools hub</a></li>
+          <li><span class="text-slate-500">Build planner reserved</span></li>
+          <li><span class="text-slate-500">Search reserved</span></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-status-Tools">
+        <h2 id="footer-status-Tools" class="text-sm font-semibold text-white">Status</h2>
+        <p class="mt-3 text-sm leading-6 text-slate-300">Static MVP. Official game data is still treated as unstable; pages use decision placeholders until verified data is available.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
