@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classes | Titan Quest 2 Starter Tools</title>
+  <meta name="description" content="Choose a Titan Quest 2 class or mastery direction from playstyle and beginner safety.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-slate-950">Skip to content</a>
+
+  <header class="border-b border-white/10 bg-slate-950">
+    <nav class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-5 md:flex-row md:items-center md:justify-between" aria-label="Primary navigation">
+      <a href="/" class="text-base font-semibold tracking-wide text-white">Titan Quest 2 Starter Tools</a>
+      <ul class="flex flex-wrap gap-3 text-sm text-slate-300" aria-label="Primary decision areas">
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/choose-build/">Choose Build</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/builds/">Builds</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/classes/">Classes</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/skills/">Skills</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/guides/beginner/">Guides</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/tools/">Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="mx-auto max-w-6xl px-5 py-5 text-sm text-slate-400" aria-label="Breadcrumb">Home > Classes</div>
+    <section class="mx-auto max-w-6xl px-5 py-12" aria-labelledby="classes-title">
+      <h1 id="classes-title" class="text-4xl font-bold leading-tight text-white md:text-5xl">Choose the mastery direction that fits your playstyle.</h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-300">This Classes Hub turns mastery choice into a decision: what you enjoy, how much complexity you want, and what build category should follow.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/class-picker/">Use Class Picker</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/beginner/">See Beginner Builds</a></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-entry">
+      <h2 id="classes-entry" class="text-2xl font-semibold text-white">Decision entry</h2>
+      <div class="mt-5 grid gap-4 md:grid-cols-3">
+        <article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">I want a safe start</h3><p class="mt-2 text-slate-300">Prefer beginner-friendly mastery directions and simple early skills.</p></article>
+        <article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">I want a strong fantasy</h3><p class="mt-2 text-slate-300">Choose by combat identity before optimizing numbers.</p></article>
+        <article class="rounded border border-white/10 bg-white/5 p-5"><h3 class="font-semibold text-white">I want hybrid depth</h3><p class="mt-2 text-slate-300">Accept more tradeoffs and compare pairing risk later.</p></article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-match">
+      <h2 id="classes-match" class="text-2xl font-semibold text-white">Playstyle match</h2>
+      <p class="mt-3 text-slate-300">Mastery direction should follow the chosen playstyle. If the playstyle is still unclear, return to Choose Build before choosing a class path.</p>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-matrix">
+      <h2 id="classes-matrix" class="text-2xl font-semibold text-white">Mastery comparison placeholder</h2>
+      <div class="mt-5 overflow-x-auto rounded border border-white/10"><table class="min-w-full divide-y divide-white/10 text-left text-sm"><thead class="bg-white/5 text-slate-200"><tr><th class="p-4">Direction</th><th class="p-4">Fits</th><th class="p-4">Tradeoff</th><th class="p-4">Next decision</th></tr></thead><tbody class="divide-y divide-white/10 text-slate-300"><tr><td class="p-4 font-semibold text-white">Durable front line</td><td class="p-4">Melee, beginner</td><td class="p-4">May level slower</td><td class="p-4"><a class="text-cyan-300" href="/builds/beginner/">Pick safe build</a></td></tr><tr><td class="p-4 font-semibold text-white">Skill caster</td><td class="p-4">Caster, balanced</td><td class="p-4">More skill planning</td><td class="p-4"><a class="text-cyan-300" href="/skills/">Check skills</a></td></tr><tr><td class="p-4 font-semibold text-white">Hybrid pairing</td><td class="p-4">Experienced players</td><td class="p-4">Higher complexity</td><td class="p-4"><a class="text-cyan-300" href="/class-picker/">Validate class fit</a></td></tr></tbody></table></div>
+    </section>
+
+    <section class="mx-auto grid max-w-6xl gap-4 px-5 py-10 md:grid-cols-2" aria-labelledby="classes-proscons">
+      <div class="rounded border border-white/10 bg-white/5 p-6"><h2 id="classes-proscons" class="text-2xl font-semibold text-white">Strengths</h2><ul class="mt-4 list-disc space-y-2 pl-5 text-slate-300"><li>Class decisions are tied to playstyle.</li><li>Beginner-safe routes stay visible.</li><li>Hybrid choices are treated as advanced.</li></ul></div>
+      <div class="rounded border border-white/10 bg-white/5 p-6"><h2 class="text-2xl font-semibold text-white">Weaknesses</h2><ul class="mt-4 list-disc space-y-2 pl-5 text-slate-300"><li>Specific mastery names are pending.</li><li>Exact synergies require verified data.</li><li>Advanced players may need future planner tools.</li></ul></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-recommendation">
+      <h2 id="classes-recommendation" class="text-2xl font-semibold text-white">Recommendation</h2>
+      <p class="mt-3 text-slate-300">New players should choose a mastery direction that supports their preferred playstyle and then move to beginner builds before optimizing.</p>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-confidence">
+      <h2 id="classes-confidence" class="text-2xl font-semibold text-white">Confidence</h2>
+      <p class="mt-3 rounded border border-amber-300/30 bg-amber-300/10 p-5 text-amber-100">The decision structure is stable. Specific mastery recommendations remain placeholders until official data is stable.</p>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="classes-next">
+      <h2 id="classes-next" class="text-2xl font-semibold text-white">Next decision</h2>
+      <p class="mt-3 text-slate-300">Validate the class recommendation or move directly into beginner build choice.</p>
+      <div class="mt-5 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/class-picker/">Use Class Picker</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/beginner/">Choose Beginner Build</a></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950">
+    <div class="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-4">
+      <section aria-labelledby="footer-core-Classes">
+        <h2 id="footer-core-Classes" class="text-sm font-semibold text-white">Core Decisions</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/choose-build/">Choose a build</a></li>
+          <li><a href="/builds/beginner/">Beginner builds</a></li>
+          <li><a href="/class-picker/">Class picker</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-guides-Classes">
+        <h2 id="footer-guides-Classes" class="text-sm font-semibold text-white">Guides</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/guides/beginner/">Beginner guide</a></li>
+          <li><a href="/classes/">Class direction</a></li>
+          <li><a href="/skills/">Skill choices</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-tools-Classes">
+        <h2 id="footer-tools-Classes" class="text-sm font-semibold text-white">Tools</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/tools/">Tools hub</a></li>
+          <li><span class="text-slate-500">Build planner reserved</span></li>
+          <li><span class="text-slate-500">Search reserved</span></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-status-Classes">
+        <h2 id="footer-status-Classes" class="text-sm font-semibold text-white">Status</h2>
+        <p class="mt-3 text-sm leading-6 text-slate-300">Static MVP. Official game data is still treated as unstable; pages use decision placeholders until verified data is available.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

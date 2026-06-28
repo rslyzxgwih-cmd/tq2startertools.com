@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choose Build | Titan Quest 2 Starter Tools</title>
+  <meta name="description" content="Choose a Titan Quest 2 playstyle before selecting a mastery or beginner build.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-slate-950">Skip to content</a>
+
+  <header class="border-b border-white/10 bg-slate-950">
+    <nav class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-5 md:flex-row md:items-center md:justify-between" aria-label="Primary navigation">
+      <a href="/" class="text-base font-semibold tracking-wide text-white">Titan Quest 2 Starter Tools</a>
+      <ul class="flex flex-wrap gap-3 text-sm text-slate-300" aria-label="Primary decision areas">
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/choose-build/">Choose Build</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/builds/">Builds</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/classes/">Classes</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/skills/">Skills</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/guides/beginner/">Guides</a></li>
+        <li><a class="rounded border border-white/10 px-3 py-2" href="/tools/">Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="mx-auto max-w-6xl px-5 py-5 text-sm text-slate-400" aria-label="Breadcrumb">Home > Choose Build</div>
+    <section class="mx-auto max-w-6xl px-5 py-12" aria-labelledby="choose-title">
+      <h1 id="choose-title" class="text-4xl font-bold leading-tight text-white md:text-5xl">Choose the playstyle you actually want to play.</h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-300">This page helps you decide between melee, caster, ranged, pet, and hybrid paths before choosing a mastery or build.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/classes/">Choose Mastery</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/beginner/">See Beginner Builds</a></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="choose-entry">
+      <h2 id="choose-entry" class="text-2xl font-semibold text-white">Decision entry</h2>
+      <ul class="mt-5 grid gap-4 md:grid-cols-5">
+        <li class="rounded border border-white/10 bg-white/5 p-4"><strong class="text-white">Melee</strong><p class="mt-2 text-sm text-slate-300">I want close-range combat and simple action priorities.</p></li>
+        <li class="rounded border border-white/10 bg-white/5 p-4"><strong class="text-white">Caster</strong><p class="mt-2 text-sm text-slate-300">I want skill-driven combat and stronger planning choices.</p></li>
+        <li class="rounded border border-white/10 bg-white/5 p-4"><strong class="text-white">Ranged</strong><p class="mt-2 text-sm text-slate-300">I want distance, control, and safer positioning.</p></li>
+        <li class="rounded border border-white/10 bg-white/5 p-4"><strong class="text-white">Pet</strong><p class="mt-2 text-sm text-slate-300">I want companions and lower direct execution pressure.</p></li>
+        <li class="rounded border border-white/10 bg-white/5 p-4"><strong class="text-white">Hybrid</strong><p class="mt-2 text-sm text-slate-300">I want mixed identity and accept more decisions later.</p></li>
+      </ul>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="choose-matrix">
+      <h2 id="choose-matrix" class="text-2xl font-semibold text-white">Compare playstyle decisions</h2>
+      <div class="mt-5 overflow-x-auto rounded border border-white/10">
+        <table class="min-w-full divide-y divide-white/10 text-left text-sm">
+          <thead class="bg-white/5 text-slate-200"><tr><th class="p-4">Playstyle</th><th class="p-4">Beginner fit</th><th class="p-4">Complexity</th><th class="p-4">Next decision</th></tr></thead>
+          <tbody class="divide-y divide-white/10 text-slate-300">
+            <tr><td class="p-4 font-semibold text-white">Melee</td><td class="p-4">High</td><td class="p-4">Low to medium</td><td class="p-4"><a class="text-cyan-300" href="/classes/">Choose durable mastery</a></td></tr>
+            <tr><td class="p-4 font-semibold text-white">Caster</td><td class="p-4">Medium</td><td class="p-4">Medium</td><td class="p-4"><a class="text-cyan-300" href="/classes/">Choose skill-scaling mastery</a></td></tr>
+            <tr><td class="p-4 font-semibold text-white">Ranged</td><td class="p-4">Medium</td><td class="p-4">Medium</td><td class="p-4"><a class="text-cyan-300" href="/builds/">Compare ranged builds</a></td></tr>
+            <tr><td class="p-4 font-semibold text-white">Pet</td><td class="p-4">Medium</td><td class="p-4">Medium</td><td class="p-4"><a class="text-cyan-300" href="/guides/beginner/">Read beginner context</a></td></tr>
+            <tr><td class="p-4 font-semibold text-white">Hybrid</td><td class="p-4">Lower</td><td class="p-4">High</td><td class="p-4"><a class="text-cyan-300" href="/classes/">Check mastery tradeoffs</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="choose-recommendation">
+      <h2 id="choose-recommendation" class="text-2xl font-semibold text-white">Recommendation</h2>
+      <article class="mt-5 rounded border border-white/10 bg-white/5 p-6">
+        <h3 class="text-xl font-semibold text-white">For the Static MVP, start with melee or balanced caster.</h3>
+        <p class="mt-3 text-slate-300">Why: these paths are easiest to explain without finalized game data and give new players clear next decisions around mastery, skill priority, and beginner build type.</p>
+        <p class="mt-3 text-slate-300">Best for: Beginner and relaxed players. Endgame and SSF recommendations remain placeholders until systems are stable.</p>
+      </article>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="choose-confidence">
+      <h2 id="choose-confidence" class="text-2xl font-semibold text-white">Confidence</h2>
+      <p class="mt-3 rounded border border-amber-300/30 bg-amber-300/10 p-5 text-amber-100">Medium confidence for decision structure. Low confidence for exact build power until official data is available.</p>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-10" aria-labelledby="choose-next">
+      <h2 id="choose-next" class="text-2xl font-semibold text-white">Next decision</h2>
+      <p class="mt-3 text-slate-300">After choosing a playstyle, decide which mastery direction supports it.</p>
+      <div class="mt-5 flex flex-col gap-3 sm:flex-row"><a class="rounded bg-cyan-300 px-5 py-3 text-center font-semibold text-slate-950" href="/classes/">Choose Mastery</a><a class="rounded border border-white/15 px-5 py-3 text-center font-semibold text-white" href="/builds/beginner/">Use beginner-safe path</a></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950">
+    <div class="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-4">
+      <section aria-labelledby="footer-core">
+        <h2 id="footer-core" class="text-sm font-semibold text-white">Core Decisions</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/choose-build/">Choose a build</a></li>
+          <li><a href="/builds/beginner/">Beginner builds</a></li>
+          <li><a href="/class-picker/">Class picker</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-guides">
+        <h2 id="footer-guides" class="text-sm font-semibold text-white">Guides</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/guides/beginner/">Beginner guide</a></li>
+          <li><a href="/classes/">Class direction</a></li>
+          <li><a href="/skills/">Skill choices</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-tools">
+        <h2 id="footer-tools" class="text-sm font-semibold text-white">Tools</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+          <li><a href="/tools/">Tools hub</a></li>
+          <li><span class="text-slate-500">Build planner reserved</span></li>
+          <li><span class="text-slate-500">Search reserved</span></li>
+        </ul>
+      </section>
+      <section aria-labelledby="footer-status">
+        <h2 id="footer-status" class="text-sm font-semibold text-white">Status</h2>
+        <p class="mt-3 text-sm leading-6 text-slate-300">Static MVP. Official game data is still treated as unstable; pages use decision placeholders until verified data is available.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
