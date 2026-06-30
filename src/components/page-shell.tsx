@@ -9,6 +9,7 @@ export type PageDefinition = {
     id: string;
     eyebrow?: string;
     title: string;
+    afterTitle?: ReactNode;
     body: string;
     ctas: Cta[];
     aside?: ReactNode;
@@ -42,6 +43,7 @@ export function PageShell({ page }: { page: PageDefinition }) {
           >
             {page.hero.title}
           </h1>
+          {page.hero.afterTitle}
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">{page.hero.body}</p>
           <ButtonRow ctas={page.hero.ctas} />
         </div>
